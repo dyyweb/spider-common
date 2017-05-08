@@ -13,7 +13,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <mybatis.version>3.4.1</mybatis.version>
-        <spring.version>4.1.6.RELEASE</spring.version>
+        <spring.version>4.3.7.RELEASE</spring.version>
         <dubbo.version>3.8.4</dubbo.version>
     </properties>
     <developers>
