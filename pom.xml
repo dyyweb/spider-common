@@ -4,7 +4,7 @@
 
     <groupId>tf56.spider.common</groupId>
     <artifactId>spider-common</artifactId>
-    <version>1.0.2-RELEASE</version>
+    <version>1.0.6-RELEASE</version>
     <name>spider-common</name>
     <url>http://maven.apache.org</url>
 
@@ -73,6 +73,14 @@
                     <artifactId>spring-tx</artifactId>
                     <groupId>org.springframework</groupId>
                 </exclusion>
+                <exclusion>
+                    <artifactId>serfj</artifactId>
+                    <groupId>net.sf.serfj</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-log4j12</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
 
@@ -117,17 +125,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.6.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.6.4</version>
         </dependency>
 
         <dependency>
