@@ -4,7 +4,7 @@
 
     <groupId>tf56.spider.common</groupId>
     <artifactId>spider-common</artifactId>
-    <version>1.0.6-RELEASE</version>
+    <version>1.0.7-RELEASE</version>
     <name>spider-common</name>
     <url>http://maven.apache.org</url>
 
@@ -166,6 +166,11 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>1.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.7.21</version>
         </dependency>
         <dependency>
             <groupId>tf56.redis</groupId>
