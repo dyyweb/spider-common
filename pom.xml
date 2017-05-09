@@ -182,6 +182,11 @@
             <artifactId>jsr250-api</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-core</artifactId>
+            <version>3.8.5</version>
+        </dependency>
     </dependencies>
 
     <repositories>
